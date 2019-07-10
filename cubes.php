@@ -1,10 +1,9 @@
 <?php
 function findNb($m) {
-    for ($n=1; $a<=$m; $n++){
+    for ($n=1; $a<$m; $n++){
         $a+=$n**3;
     }
-    if ($a==$m) return $n;
-    else return -1;
+    return ($a==$m ? $n - 1 : -1)
 }
 
 
