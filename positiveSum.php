@@ -10,7 +10,16 @@ function positive_sum($arr) {
 }
 
 /*
- *
+ *function positive_sum($arr) {
+  $sum = 0;
+
+  foreach ($arr as $element) {
+    $sum += $element > 0 ? $element : 0;
+  }
+
+  return $sum;
+}
+
     You get an array of numbers, return the sum of all of the positives ones.
 
     Example [1,-4,7,12] => 1 + 7 + 12 = 20
