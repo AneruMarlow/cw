@@ -1,11 +1,10 @@
 <?php
 function positive_sum($arr) {
     foreach ($arr as $val) {
-        if ($val>=0) {
+        if ($val>0) {
             $sum+=$val;
         }
     }
-    unset ($val);
     return $sum;
 }
 
